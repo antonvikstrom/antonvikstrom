@@ -1,10 +1,4 @@
 # Hello, I'm Anton
-<div>
-    <a href="https://linkedin.com/in/anton-vikstrom"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-    <a href="https://tryhackme.com/p/tonies"><img src="https://img.shields.io/badge/-TryHackMe-212c42?&style=for-the-badge&logo=tryhackme&logoColor=white" /></a>
-</div>
-
-## About Me
 
 I am a dedicated cybersecurity professional transitioning from a career in education. Passionate about network forensics, lifelong learning, and solving complex problems. Guided by strong personal discipline and a mission to make the world better for the next generation, I am driven by a genuine desire to help defend society against advanced cyber threats.
 
