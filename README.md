@@ -4,7 +4,7 @@ I am a dedicated cybersecurity professional transitioning from a career in educa
 
 ## Featured Projects
 
-#### [Active Directory Lab](https://github.com/antonvikstrom/Active-Directory-Lab)
+#### [Architecting a Resilient SOC Ecosystem](https://github.com/antonvikstrom/Active-Directory-Lab)
 - Built a virtualized Active Directory lab to simulate real-world attacks and engineer a central logging pipeline for advanced threat detection and analysis.
 
 ## Technical Toolkit
