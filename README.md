@@ -4,7 +4,7 @@ I am a dedicated cybersecurity professional transitioning from a career in educa
 
 ## Featured Projects
 
-#### [Architecting a Resilient SOC Ecosystem](https://github.com/antonvikstrom/Active-Directory-Lab)
+#### [Architecting a Resilient SOC Ecosystem](https://github.com/antonvikstrom/architecting-resilient-soc)
 - Engineered a segmented, multi-zone SOC infrastructure on Proxmox to host adversary emulations and validate detection integrity via a high-fidelity telemetry pipeline.
 
 ## Technical Toolkit
