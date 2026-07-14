@@ -14,7 +14,7 @@ Below is the layout of my home lab, which I engineered on a bare-metal hyperviso
 * **What I did:** I set up a bare-metal Proxmox hypervisor, built five isolated networks, and configured a pfSense firewall to enforce strict isolation. I stood up a Windows Server AD core, set up an unprivileged WireGuard remote-access gateway, and built a centralized telemetry pipeline feeding client logs into Splunk.
 * **Core Tech:** Proxmox VE, pfSense, Active Directory, Splunk, WireGuard VPN.
 
-#### 2. [Adversary Emulation & Log Hunting: Sliver C2 & Splunk](LINK_TO_REPO_2)
+#### 2. [Adversary Emulation & Log Hunting: Sliver C2 & Splunk](LINK_TO_REPO_2) *(In Progress)*
 * **What I did:** I simulated a network compromise using a Sliver HTTP payload on a Windows 10 target. I ran common discovery techniques using Atomic Red Team and used Splunk to trace the attacker's footprint—analyzing process executions, Registry-based execution artifacts (BAM), and active network sockets.
 * **Core Tech:** Sliver C2, Atomic Red Team (T1033), Windows Sysmon, Splunk SPL.
 
