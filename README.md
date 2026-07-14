@@ -10,7 +10,7 @@ Below is the layout of my home lab, which I engineered on a bare-metal hyperviso
 
 ## Featured Projects
 
-#### 1. [Building a Secure Home Cyber Lab: pfSense, Active Directory & Splunk](LINK_TO_REPO_1)
+#### 1. [Building a Secure Home Cyber Lab: pfSense, Active Directory & Splunk](https://github.com/antonvikstrom/1-building-secure-home-cyber-lab)
 * **What I did:** I set up a bare-metal Proxmox hypervisor, built five isolated networks, and configured a pfSense firewall to enforce strict isolation. I stood up a Windows Server AD core, set up an unprivileged WireGuard remote-access gateway, and built a centralized telemetry pipeline feeding client logs into Splunk.
 * **Core Tech:** Proxmox VE, pfSense, Active Directory, Splunk, WireGuard VPN.
 
