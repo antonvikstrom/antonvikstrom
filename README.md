@@ -19,7 +19,7 @@ Below is the layout of my home lab, which I engineered on a bare-metal hyperviso
 * **Core Tech:** Sliver C2, Atomic Red Team (T1033), Windows Sysmon, Splunk SPL.
 
 #### 3. [Malware Sandbox & Forensic Analysis Clean Room](LINK_TO_REPOR_3_OR_PLACEHOLDER) *(In Progress)*
-* **What I did:** Designing an air-gapped forensic segment (OPT4) on the firewall to safely execute real malware, analyze system changes, and write detection rules.
+* **What I did:** Designing an air-gapped forensic segment on the firewall to safely execute real malware, analyze system changes, and write detection rules.
 * **Core Tech:** REMnux, Yara, Dynamic Malware Analysis.
 
 ## Technical Toolkit
