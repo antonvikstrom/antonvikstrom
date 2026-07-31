@@ -11,16 +11,19 @@ Below is the layout of my home lab, which I engineered on a bare-metal hyperviso
 ## Featured Projects
 
 #### 1. [Building a Secure Home Cyber Lab: pfSense, Active Directory & Splunk](https://github.com/antonvikstrom/1-building-secure-home-cyber-lab)
-* **What I did:** I set up a bare-metal Proxmox hypervisor, built five isolated networks, and configured a pfSense firewall to enforce strict isolation. I stood up a Windows Server AD core, set up an unprivileged WireGuard remote-access gateway, and built a centralized telemetry pipeline feeding client logs into Splunk.
-* **Core Tech:** Proxmox VE, pfSense, Active Directory, Splunk, WireGuard VPN.
+* **What I did:** Built an isolated 6-zone enterprise lab on Proxmox managed by a pfSense router and WireGuard VPN. Deployed Active Directory, vulnerable endpoints, and an air-gapped REMnux clean room, then configured Sysmon and Splunk to stream central telemetry.
 
-#### 2. [Adversary Emulation & Log Hunting: Sliver C2 & Splunk](LINK_TO_REPO_2) *(In Progress)*
-* **What I did:** I simulated a network compromise using a Sliver HTTP payload on a Windows 10 target. I ran common discovery techniques using Atomic Red Team and used Splunk to trace the attacker's footprint—analyzing process executions, Registry-based execution artifacts (BAM), and active network sockets.
-* **Core Tech:** Sliver C2, Atomic Red Team (T1033), Windows Sysmon, Splunk SPL.
+* **Core Tech:** Proxmox VE, pfSense, Active Directory, Splunk, Sysmon, Docker, REMnux, WireGuard.
 
-#### 3. [Malware Sandbox & Forensic Analysis Clean Room](LINK_TO_REPOR_3_OR_PLACEHOLDER) *(In Progress)*
-* **What I did:** Designing an air-gapped forensic segment on the firewall to safely execute real malware, analyze system changes, and write detection rules.
-* **Core Tech:** REMnux, Yara, Dynamic Malware Analysis.
+#### 2. Adversary Emulation & SIEM Detections (In Progress)
+* **What I did:** Simulating attacks on Windows and Linux targets using Kali Linux, Sliver C2, and Atomic Red Team. Hunting through logs in Splunk and writing custom SPL detection rules to catch C2 beacons and post-exploitation activity.
+
+* **Core Tech:** Sliver C2, Atomic Red Team, Kali Linux, Sysmon, Splunk SPL.
+
+#### 3. Live Malware Analysis & DFIR (Upcoming)
+* **What I did:** Safely detonating real malware inside an air-gapped REMnux clean room. Analyzing file changes, network behavior, and memory artifacts to build custom YARA rules and SIEM detections.
+
+* **Core Tech:** REMnux, YARA, Ghidra, Wireshark, Dynamic Malware Analysis.
 
 ## Technical Toolkit
 
