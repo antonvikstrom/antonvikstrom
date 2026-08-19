@@ -10,12 +10,12 @@ Below is the layout of my home lab, which I engineered on a bare-metal hyperviso
 
 ## Featured Projects
 
-#### 1. [Building a Secure Home Cyber Lab: pfSense, Active Directory & Splunk](https://github.com/antonvikstrom/building-secure-home-lab)
+#### [Project 1: Building a Secure Home Cyber Lab: pfSense, Active Directory & Splunk](https://github.com/antonvikstrom/building-secure-home-lab)
 * **What I did:** Built an isolated 6-zone enterprise lab on Proxmox, routed and secured by a pfSense firewall with WireGuard VPN access. Deployed Active Directory, vulnerable endpoints, and an air-gapped REMnux clean room, then configured Sysmon and Splunk to stream central telemetry.
 
 * **Core Tech:** Proxmox VE, pfSense, Active Directory, Splunk, Sysmon, Docker, WireGuard.
 
-#### 2. Adversary Emulation & SIEM Detections (In Progress)
+#### [Project 2: Automated Adversary Emulation & SIEM Detections](https://github.com/antonvikstrom/automated-threat-detection-pipeline)
 * **What I did:** Simulating attacks on Windows and Linux targets using Kali Linux, Sliver C2, and Atomic Red Team. Hunting through logs in Splunk and writing custom SPL detection rules to catch C2 beacons and post-exploitation activity.
 
 * **Core Tech:** Sliver C2, Atomic Red Team, Kali Linux, Sysmon, Splunk SPL.
