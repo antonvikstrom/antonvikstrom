@@ -16,9 +16,9 @@ Below is the layout of my home lab, which I engineered on a bare-metal hyperviso
 * **Core Tech:** Proxmox VE, pfSense, Active Directory, Splunk, Sysmon, Docker, WireGuard.
 
 #### [Project 2: Automated Adversary Emulation & SIEM Detections](https://github.com/antonvikstrom/automated-threat-detection-pipeline)
-* **What I did:** Simulating attacks on Windows and Linux targets using Kali Linux, Sliver C2, and Atomic Red Team. Hunting through logs in Splunk and writing custom SPL detection rules to catch C2 beacons and post-exploitation activity.
+* **What I did:** Built a closed-loop Python automation pipeline on Kali Linux to simulate web (LFI/Path Traversal) and network (Covert DNS Exfiltration) attacks. Programmatically audited SIEM detections via Splunk's REST API, integrated real-time threat intelligence enrichment via AbuseIPDB, and authored custom SPL correlation rules using regex field extraction.
 
-* **Core Tech:** Sliver C2, Atomic Red Team, Kali Linux, Sysmon, Splunk SPL.
+* **Core Tech:** Python (requests, python-dotenv), Splunk (SPL & REST API), Kali Linux, pfSense, Docker, AbuseIPDB API. 
 
 #### 3. Live Malware Analysis & DFIR (Upcoming)
 * **What I did:** Safely detonating real malware inside an air-gapped REMnux clean room. Analyzing file changes, network behavior, and memory artifacts to build custom YARA rules and SIEM detections.
