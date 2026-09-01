@@ -10,7 +10,7 @@ Below is the layout of my home lab, which I engineered on a bare-metal hyperviso
 
 ## Featured Projects
 
-#### [Project 1: Building a Secure Home Cyber Lab with pfSense, Active Directory & Splunk](https://github.com/antonvikstrom/building-secure-home-lab)
+#### [Project 1: Building a Secure Home Cyber Lab (pfSense, Active Directory & Splunk)](https://github.com/antonvikstrom/building-secure-home-lab)
 * **What I did:** Built an isolated 6-zone enterprise lab on Proxmox, routed and secured by a pfSense firewall with WireGuard VPN access. Deployed Active Directory, vulnerable endpoints, and an air-gapped REMnux clean room, then configured Sysmon and Splunk to stream central telemetry.
 
 * **Core Tech:** Proxmox VE, pfSense, Active Directory, Splunk, Sysmon, Docker, WireGuard.
