@@ -20,7 +20,7 @@ Below is the layout of my home lab, which I engineered on a bare-metal hyperviso
 
 * **Core Tech:** Python (requests, python-dotenv), Splunk (SPL & REST API), Kali Linux, pfSense, Docker, AbuseIPDB API. 
 
-#### 3. Live Malware Analysis & DFIR (Upcoming)
+#### 3. [Malware Analysis & DFIR](https://github.com/antonvikstrom/dfir-malware-analysis-lab)
 * **What I did:** Safely detonating real malware inside an air-gapped REMnux clean room. Analyzing file changes, network behavior, and memory artifacts to build custom YARA rules and SIEM detections.
 
 * **Core Tech:** REMnux, YARA, Ghidra, Wireshark, Dynamic Malware Analysis.
