@@ -25,8 +25,6 @@ Below is the layout of my home lab, which I engineered on a bare-metal hyperviso
 
 * **Core Tech:** REMnux, Cutter, strace, YARA, tcpdump, pfSense, Splunk (SPL & CSV Parsing).
 
-## Technical Toolkit
-
 #### Project 4: Autonomous SOAR Engine with AI Triage & Human-in-the-Loop Response
 
 * **What I did:** Built a closed-loop security orchestration pipeline linking Splunk webhook alerts to an n8n
@@ -40,6 +38,8 @@ lives alongside its original detection event in the SIEM.
 
 * **Core Tech:** Splunk (SPL, HEC), n8n, Docker, Python, Anthropic Claude API, Discord Bot API, pfSense REST API
 (pfrest), MITRE ATT&CK.
+
+## Technical Toolkit
 
 ### Security Monitoring & Traffic Analysis
 <p align="left">
