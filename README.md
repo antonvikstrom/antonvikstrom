@@ -27,6 +27,20 @@ Below is the layout of my home lab, which I engineered on a bare-metal hyperviso
 
 ## Technical Toolkit
 
+#### Project 4: Autonomous SOAR Engine with AI Triage & Human-in-the-Loop Response
+
+* **What I did:** Built a closed-loop security orchestration pipeline linking Splunk webhook alerts to an n8n
+automation engine. Python sandboxed risk scoring filters benign events before they reach Claude for AI triage
+(MITRE ATT&CK mapping, severity classification, remediation steps). High-severity threats route through a
+Discord approval gate with interactive Approve/Decline buttons, and on human approval, the pipeline
+automatically patches a pfSense firewall alias via its REST API to block the attacker IP in real time. All
+five decision outcomes (benign suppression, already-blocked skip, human denial, automated block, and low-severity
+pass) are written back to Splunk via HTTP Event Collector, closing the audit loop so every SOAR decision
+lives alongside its original detection event in the SIEM.
+
+* **Core Tech:** Splunk (SPL, HEC), n8n, Docker, Python, Anthropic Claude API, Discord Bot API, pfSense REST API
+(pfrest), MITRE ATT&CK.
+
 ### Security Monitoring & Traffic Analysis
 <p align="left">
     <img src="https://img.shields.io/badge/-Splunk-000000?&style=for-the-badge&logo=Splunk&logoColor=white" /> 
