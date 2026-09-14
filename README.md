@@ -25,7 +25,7 @@ Below is the layout of my home lab, which I engineered on a bare-metal hyperviso
 
 * **Core Tech:** REMnux, Cutter, strace, YARA, tcpdump, pfSense, Splunk (SPL & CSV Parsing).
 
-#### Project 4: Autonomous SOAR Engine with AI Triage & Human-in-the-Loop Response
+#### [Project 4: Autonomous SOAR Engine with AI Triage & Human-in-the-Loop Response](https://github.com/antonvikstrom/soar-automation-pipeline)
 
 * **What I did:** Built a closed-loop security orchestration pipeline linking Splunk webhook alerts to an n8n
 automation engine. Python sandboxed risk scoring filters benign events before they reach Claude for AI triage
