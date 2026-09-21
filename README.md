@@ -49,6 +49,8 @@ lives alongside its original detection event in the SIEM.
     <img src="https://img.shields.io/badge/-Snort-FF0000?&style=for-the-badge&logo=snort&logoColor=white" /> 
     <img src="https://img.shields.io/badge/-MISP-000000?&style=for-the-badge&logo=misp&logoColor=white" />
     <img src="https://img.shields.io/badge/-Elastic_Stack-005571?&style=for-the-badge&logo=elasticstack&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Sigma-4B0082?&style=for-the-badge" />
+    <img src="https://img.shields.io/badge/-KQL-0078D4?&style=for-the-badge&logo=microsoftazure&logoColor=white" />
 </p>
 
 ### Endpoint, OS & Hypervisors
@@ -72,6 +74,7 @@ lives alongside its original detection event in the SIEM.
     <img src="https://img.shields.io/badge/-Python-3776AB?&style=for-the-badge&logo=Python&logoColor=white" /> 
     <img src="https://img.shields.io/badge/-Bash-4EAA25?&style=for-the-badge&logo=GNU-Bash&logoColor=white" />
     <img src="https://img.shields.io/badge/-PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white" />
+    <img src="https://img.shields.io/badge/-GitHub_Actions-2088FF?&style=for-the-badge&logo=githubactions&logoColor=white" />
 </p>
 
 ## Certifications
