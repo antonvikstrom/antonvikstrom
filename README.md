@@ -51,20 +51,20 @@ lives alongside its original detection event in the SIEM.
 <p align="left">
     <img src="https://img.shields.io/badge/-Splunk-000000?&style=for-the-badge&logo=Splunk&logoColor=white" /> 
     <img src="https://img.shields.io/badge/-Wireshark-1679A7?&style=for-the-badge&logo=Wireshark&logoColor=white" /> 
-    <img src="https://img.shields.io/badge/-Zeek-777BB4?&style=for-the-badge&logo=zeek&logoColor=white" /> 
-    <img src="https://img.shields.io/badge/-Snort-FF0000?&style=for-the-badge&logo=snort&logoColor=white" /> 
-    <img src="https://img.shields.io/badge/-MISP-000000?&style=for-the-badge&logo=misp&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Elastic_Stack-005571?&style=for-the-badge&logo=elasticstack&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Sigma-4B0082?&style=for-the-badge" />
     <img src="https://img.shields.io/badge/-KQL-0078D4?&style=for-the-badge&logo=microsoftazure&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Sigma-4B0082?&style=for-the-badge" />
+    <img src="https://img.shields.io/badge/-YARA-4B0082?&style=for-the-badge" />
+    <img src="https://img.shields.io/badge/-MISP-000000?&style=for-the-badge&logo=misp&logoColor=white" />
 </p>
 
 ### Endpoint, OS & Hypervisors
 <p align="left">
     <img src="https://img.shields.io/badge/-Proxmox-E57000?&style=for-the-badge&logo=Proxmox&logoColor=white" /> 
+    <img src="https://img.shields.io/badge/-Docker-2496ED?&style=for-the-badge&logo=Docker&logoColor=white" />
     <img src="https://img.shields.io/badge/-Windows%20Server-0078D4?&style=for-the-badge&logo=Windows&logoColor=white" /> 
     <img src="https://img.shields.io/badge/-Sysmon-001A57?&style=for-the-badge&logo=Windows&logoColor=white" />
     <img src="https://img.shields.io/badge/-Linux-FCC624?&style=for-the-badge&logo=Linux&logoColor=black" />
+    <img src="https://img.shields.io/badge/-Kali_Linux-557C94?&style=for-the-badge&logo=kalilinux&logoColor=white" />
 </p>
 
 ### Networking & Infrastructure
@@ -72,15 +72,15 @@ lives alongside its original detection event in the SIEM.
     <img src="https://img.shields.io/badge/-pfSense-DA3E25?&style=for-the-badge&logo=pfSense&logoColor=white" />
     <img src="https://img.shields.io/badge/-VMware-607078?&style=for-the-badge&logo=VMware&logoColor=white" />
     <img src="https://img.shields.io/badge/-WireGuard_VPN-88171A?style=for-the-badge&logo=wireguard&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Nmap-2B3E50?style=for-the-badge&logoColor=white" />
 </p>
 
-### Scripting
+### Scripting & Automation
 <p align="left">
     <img src="https://img.shields.io/badge/-Python-3776AB?&style=for-the-badge&logo=Python&logoColor=white" /> 
     <img src="https://img.shields.io/badge/-Bash-4EAA25?&style=for-the-badge&logo=GNU-Bash&logoColor=white" />
     <img src="https://img.shields.io/badge/-PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white" />
     <img src="https://img.shields.io/badge/-GitHub_Actions-2088FF?&style=for-the-badge&logo=githubactions&logoColor=white" />
+    <img src="https://img.shields.io/badge/-n8n-EA4B71?&style=for-the-badge&logo=n8n&logoColor=white" />
 </p>
 
 ## Certifications
