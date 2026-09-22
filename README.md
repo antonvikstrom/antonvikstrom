@@ -39,6 +39,12 @@ lives alongside its original detection event in the SIEM.
 * **Core Tech:** Splunk (SPL, HEC), n8n, Docker, Python, Anthropic Claude API, Discord Bot API, pfSense REST API
 (pfrest), MITRE ATT&CK.
 
+#### [Project 5: Detection-as-Code Pipeline with CI-Tested Sigma, YARA & SPL Rules](https://github.com/antonvikstrom/detection-as-code)
+
+* **What I did:** Consolidated detections from the four projects above into a version-controlled detection-as-code repository. GitHub Actions validates every rule's syntax and schema, compiles the YARA rules, and runs the actual detection logic against labeled test fixtures, not just checking that a rule parses, but that it fires on what it should and stays quiet on what it shouldn't. Replaced a hardcoded lab-only IOC with a live threat-intel watchlist pulled daily from abuse.ch, and added a behavioral DNS exfiltration rule (entropy and length scoring) alongside the IOC match to cover domains that haven't been reported anywhere yet.
+
+* **Core Tech:** Sigma, pySigma, YARA, Splunk SPL, Python, GitHub Actions, abuse.ch URLhaus, MITRE ATT&CK.
+
 ## Technical Toolkit
 
 ### Security Monitoring & Traffic Analysis
