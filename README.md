@@ -64,7 +64,6 @@ Below is the layout of my home lab, which I engineered on a bare-metal hyperviso
 ### Networking & Infrastructure
 <p align="left">
     <img src="https://img.shields.io/badge/-pfSense-DA3E25?&style=for-the-badge&logo=pfSense&logoColor=white" />
-    <img src="https://img.shields.io/badge/-VMware-607078?&style=for-the-badge&logo=VMware&logoColor=white" />
     <img src="https://img.shields.io/badge/-WireGuard_VPN-88171A?style=for-the-badge&logo=wireguard&logoColor=white" />
 </p>
 
