@@ -51,10 +51,8 @@ lives alongside its original detection event in the SIEM.
 <p align="left">
     <img src="https://img.shields.io/badge/-Splunk-000000?&style=for-the-badge&logo=Splunk&logoColor=white" /> 
     <img src="https://img.shields.io/badge/-Wireshark-1679A7?&style=for-the-badge&logo=Wireshark&logoColor=white" /> 
-    <img src="https://img.shields.io/badge/-KQL-0078D4?&style=for-the-badge&logo=microsoftazure&logoColor=white" />
     <img src="https://img.shields.io/badge/-Sigma-4B0082?&style=for-the-badge" />
     <img src="https://img.shields.io/badge/-YARA-4B0082?&style=for-the-badge" />
-    <img src="https://img.shields.io/badge/-MISP-000000?&style=for-the-badge&logo=misp&logoColor=white" />
 </p>
 
 ### Endpoint, OS & Hypervisors
