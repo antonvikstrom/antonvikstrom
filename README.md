@@ -10,40 +10,36 @@ Below is the layout of my home lab, which I engineered on a bare-metal hyperviso
 
 ## Featured Projects
 
-#### [Project 1: Building a Secure Home Cyber Lab (pfSense, Active Directory & Splunk)](https://github.com/antonvikstrom/building-secure-home-lab)
-* **What I did:** Built an isolated 6-zone enterprise lab on Proxmox, routed and secured by a pfSense firewall with WireGuard VPN access. Deployed Active Directory, vulnerable endpoints, and an isolated REMnux clean room, then configured Sysmon and Splunk to stream central telemetry.
-
-* **Core Tech:** Proxmox VE, pfSense, Active Directory, Splunk, Sysmon, Docker, WireGuard.
-
-#### [Project 2: Automated Adversary Emulation & SIEM Detections](https://github.com/antonvikstrom/automated-threat-detection-pipeline)
-* **What I did:** Built a closed-loop Python automation pipeline on Kali Linux to simulate web (LFI/Path Traversal) and network (Covert DNS Exfiltration) attacks. Programmatically audited SIEM detections via Splunk's REST API, integrated real-time threat intelligence enrichment via AbuseIPDB, and authored custom SPL correlation rules using regex field extraction.
-
-* **Core Tech:** Python (requests, python-dotenv), Splunk (SPL & REST API), Kali Linux, pfSense, Docker, AbuseIPDB API. 
-
-#### [Project 3: Live Linux Malware Analysis & SIEM Telemetry Engineering](https://github.com/antonvikstrom/dfir-malware-analysis-lab)
-* **What I did:** Detonated a 194-byte 64-bit Linux ELF stager inside an air-gapped REMnux clean room. Extracted hardcoded C2 socket structures via dynamic tracing (strace) and disassembly (Cutter), authored a custom YARA signature, and remediated a critical pfSense syslog telemetry gap (clog buffer freeze & silent drops) to restore full visibility in Splunk.
-
-* **Core Tech:** REMnux, Cutter, strace, YARA, tcpdump, pfSense, Splunk (SPL & CSV Parsing).
-
-#### [Project 4: Autonomous SOAR Engine with AI Triage & Human-in-the-Loop Response](https://github.com/antonvikstrom/soar-automation-pipeline)
-
-* **What I did:** Built a closed-loop security orchestration pipeline linking Splunk webhook alerts to an n8n
-automation engine. Python sandboxed risk scoring filters benign events before they reach Claude for AI triage
-(MITRE ATT&CK mapping, severity classification, remediation steps). High-severity threats route through a
-Discord approval gate with interactive Approve/Decline buttons, and on human approval, the pipeline
-automatically patches a pfSense firewall alias via its REST API to block the attacker IP in real time. All
-five decision outcomes (benign suppression, already-blocked skip, human denial, automated block, and low-severity
-pass) are written back to Splunk via HTTP Event Collector, closing the audit loop so every SOAR decision
-lives alongside its original detection event in the SIEM.
-
-* **Core Tech:** Splunk (SPL, HEC), n8n, Docker, Python, Anthropic Claude API, Discord Bot API, pfSense REST API
-(pfrest), MITRE ATT&CK.
-
-#### [Project 5: Detection-as-Code Pipeline with CI-Tested Sigma, YARA & SPL Rules](https://github.com/antonvikstrom/detection-as-code)
+#### [Detection-as-Code Pipeline with CI-Tested Sigma, YARA & SPL Rules](https://github.com/antonvikstrom/detection-as-code)
 
 * **What I did:** Consolidated detections from the four projects above into a version-controlled detection-as-code repository. GitHub Actions validates every rule's syntax and schema, compiles the YARA rules, and runs the actual detection logic against labeled test fixtures, not just checking that a rule parses, but that it fires on what it should and stays quiet on what it shouldn't. Replaced a hardcoded lab-only IOC with a live threat-intel watchlist pulled daily from abuse.ch, and added a behavioral DNS exfiltration rule (entropy and length scoring) alongside the IOC match to cover domains that haven't been reported anywhere yet.
 
 * **Core Tech:** Sigma, pySigma, YARA, Splunk SPL, Python, GitHub Actions, abuse.ch URLhaus, MITRE ATT&CK.
+
+#### [AI-Assisted SOAR Engine with Human Approval](https://github.com/antonvikstrom/soar-automation-pipeline)
+
+* **What I did:** Built a closed-loop security orchestration pipeline linking Splunk webhook alerts to an n8n automation engine. Python sandboxed risk scoring filters benign events before they reach Claude for AI triage (MITRE ATT&CK mapping, severity classification, remediation steps). High-severity threats route through a Discord approval gate with interactive Approve/Decline buttons, and on human approval, the pipeline automatically patches a pfSense firewall alias via its REST API to block the attacker IP in real time. All five decision outcomes (benign suppression, already-blocked skip, human denial, automated block, and low-severity pass) are written back to Splunk via HTTP Event Collector, closing the audit loop so every SOAR decision lives alongside its original detection event in the SIEM.
+
+* **Core Tech:** Splunk (SPL, HEC), n8n, Docker, Python, Anthropic Claude API, Discord Bot API, pfSense REST API
+(pfrest), MITRE ATT&CK.
+
+#### [Live Linux Malware Analysis & SIEM Telemetry Engineering](https://github.com/antonvikstrom/dfir-malware-analysis-lab)
+* **What I did:** Detonated a 194-byte 64-bit Linux ELF stager inside an air-gapped REMnux clean room. Extracted hardcoded C2 socket structures via dynamic tracing (strace) and disassembly (Cutter), authored a custom YARA signature, and remediated a critical pfSense syslog telemetry gap (clog buffer freeze & silent drops) to restore full visibility in Splunk.
+
+* **Core Tech:** REMnux, Cutter, strace, YARA, tcpdump, pfSense, Splunk (SPL & CSV Parsing).
+
+#### [Building a Secure Home Cyber Lab (pfSense, Active Directory & Splunk)](https://github.com/antonvikstrom/building-secure-home-lab)
+* **What I did:** Built an isolated 5-zone enterprise lab on Proxmox, routed and secured by a pfSense firewall with WireGuard VPN access. Deployed Active Directory, vulnerable endpoints, and an isolated REMnux clean room, then configured Sysmon and Splunk to stream central telemetry.
+
+* **Core Tech:** Proxmox VE, pfSense, Active Directory, Splunk, Sysmon, Docker, WireGuard.
+
+#### [Automated Adversary Emulation & SIEM Detections](https://github.com/antonvikstrom/automated-threat-detection-pipeline)
+* **What I did:** Built a closed-loop Python automation pipeline on Kali Linux to simulate web (LFI/Path Traversal) and network (Covert DNS Exfiltration) attacks. Programmatically audited SIEM detections via Splunk's REST API, integrated real-time threat intelligence enrichment via AbuseIPDB, and authored custom SPL correlation rules using regex field extraction.
+
+* **Core Tech:** Python (requests, python-dotenv), Splunk (SPL & REST API), Kali Linux, pfSense, Docker, AbuseIPDB API. 
+
+
+
 
 ## Technical Toolkit
 
